@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <Links />
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
