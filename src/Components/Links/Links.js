@@ -8,7 +8,7 @@ const Links = () => {
           <img src="" width="70" height="70" alt="home-icon" className="icon" />
         </a>
         <div>
-          <ul>
+          <ul className="navbar">
             <li>
               <a href="/">Home</a>
             </li>
@@ -29,3 +29,4 @@ const Links = () => {
 };
 
 export default Links;
+ 
