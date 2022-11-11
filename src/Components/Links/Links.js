@@ -1,32 +1,52 @@
+import { Component } from "react";
 import "./Links.css";
 
-const Links = () => {
-  return (
-    <div>
-      <nav>
-        <a href="/">
-          <img src="" width="70" height="70" alt="home-icon" className="icon" />
-        </a>
-        <div>
-          <ul className="navbar">
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/about">About</a>
-            </li>
-            <li>
-              <a href="/portfolio">Portfolio</a>
-            </li>
-            <li>
-              <a href="/contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  );
-};
+class Links extends Component {
+  state = { clicked: false };
+  handleClick = () => {
+    this.setState({ clicked: !this.state.clicked });
+  };
+  render() {
+    return (
+      <div>
+        <nav>
+          <a href="/">
+            <img
+              src=""
+              width="70"
+              height="70"
+              alt="home-icon"
+              className="icon"
+            />
+          </a>
+          <div>
+            <ul className="navbar">
+              <li>
+                <a className="active" href="/">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="/about">About</a>
+              </li>
+              <li>
+                <a href="/portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="/contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div className="mobile" onClick={this.handleClick}>
+            <i
+              id="bar"
+              className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
+            ></i>
+          </div>
+        </nav>
+      </div>
+    );
+  }
+}
 
 export default Links;
- 
