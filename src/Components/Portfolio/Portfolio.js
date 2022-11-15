@@ -1,9 +1,14 @@
 import "./Portfolio.css";
+import Data from './Data'
 
 const Portfolio = () => {
   return (
     <div>
-      <h1>Portfolio Page</h1>
+      {Data.map((slide, index) => {
+        return (
+        <img src={slide.image} alt="images" />
+        )
+      })}
     </div>
   );
 };
