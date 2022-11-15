@@ -20,7 +20,7 @@ class Links extends Component {
             />
           </a>
           <div>
-            <ul className="navbar">
+            <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
               <li>
                 <a className="active" href="/">
                   Home
