@@ -1,9 +1,9 @@
 const Data = [
     {
-        image: ''
+        image: '/Images/SomBase.jpg'
     },
     {
-        image: ''
+        image: '/Images/MadLibs.jpg'
     }
 ]
 

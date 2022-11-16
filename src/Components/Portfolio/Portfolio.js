@@ -8,11 +8,11 @@ const Portfolio = ({ slides }) => {
   const length = slides.length;
 
   return (
-    <section className='slider'>
+    <section className="slider">
       <FaArrowAltCircleLeft className="left" />
       <FaArrowAltCircleRight className="right" />
       {Data.map((slide, index) => {
-        return <img src={slide.image} alt="images" />;
+        return <img src={slide.image} alt="images" className="image" />;
       })}
     </section>
   );
