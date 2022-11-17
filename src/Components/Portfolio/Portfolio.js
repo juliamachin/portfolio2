@@ -8,16 +8,16 @@ const Portfolio = ({ slides }) => {
   const length = slides.length;
 
   const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1)
-  }
+    setCurrent(current === length - 1 ? 0 : current + 1);
+  };
 
   const prevSlide = () => {
-    setCurrent(current === 0 ? length -1 : current - 1) 
-  }
+    setCurrent(current === 0 ? length - 1 : current - 1);
+  };
 
-  console.log(current)
+  console.log(current);
 
-  if (!Array.isArray(slides) || slides.length <= + 0) {
+  if (!Array.isArray(slides) || slides.length <= +0) {
     return null;
   }
 
@@ -26,7 +26,16 @@ const Portfolio = ({ slides }) => {
       <FaArrowAltCircleLeft className="left" onClick={prevSlide} />
       <FaArrowAltCircleRight className="right" onClick={nextSlide} />
       {Data.map((slide, index) => {
-        return <img src={slide.image} alt="images" className="image" />;
+        return (
+          <div
+            className={index === current ? "slide active" : "slide"}
+            key={index}
+          >
+            {index === current && (
+              <img src={slide.image} alt="images" className="image" />
+            )}
+          </div>
+        );
       })}
     </section>
   );
