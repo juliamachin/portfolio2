@@ -32,7 +32,7 @@ const Portfolio = ({ slides }) => {
             key={index}
           >
             {index === current && (
-              <img src={slide.image} alt="images" className="image" />
+            <a href={slide.deploy}><img src={slide.image} alt="images" className="image" /></a>
             )}
           </div>
         );
