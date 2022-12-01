@@ -12,9 +12,9 @@ class Links extends Component {
         <nav>
           <a href="/">
             <img
-              src=""
-              width="70"
-              height="70"
+              src="/Images/Mushroom.png"
+              width="55"
+              height="55"
               alt="home-icon"
               className="icon"
             />

@@ -22,22 +22,27 @@ const Portfolio = ({ slides }) => {
   }
 
   return (
-    <section className="slider">
-      <FaArrowAltCircleLeft className="left" onClick={prevSlide} />
-      <FaArrowAltCircleRight className="right" onClick={nextSlide} />
-      {Data.map((slide, index) => {
-        return (
-          <div
-            className={index === current ? "slide active" : "slide"}
-            key={index}
-          >
-            {index === current && (
-            <a href={slide.deploy}><img src={slide.image} alt="images" className="image" /></a>
-            )}
-          </div>
-        );
-      })}
-    </section>
+    <div>
+      <h2>Portfolio</h2>
+      <section className="slider">
+        <FaArrowAltCircleLeft className="left" onClick={prevSlide} />
+        <FaArrowAltCircleRight className="right" onClick={nextSlide} />
+        {Data.map((slide, index) => {
+          return (
+            <div
+              className={index === current ? "slide active" : "slide"}
+              key={index}
+            >
+              {index === current && (
+                <a href={slide.deploy}>
+                  <img src={slide.image} alt="images" className="image" />
+                </a>
+              )}
+            </div>
+          );
+        })}
+      </section>
+    </div>
   );
 };
 

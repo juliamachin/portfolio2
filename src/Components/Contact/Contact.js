@@ -1,13 +1,13 @@
 import "./Contact.css";
 import { useRef } from "react";
-import { Button, Form, FormGroup, Label, Input, TextArea } from "reactstrap";
+import { Button, Form, FormGroup, Label, Input } from "reactstrap";
 
 const Contact = () => {
   const form = useRef();
 
   return (
     <div className="form-container">
-      <h2>Contact Me</h2>
+      <h2 className="title">Contact Me</h2>
       <Form className="form">
         <FormGroup>
           <Label>Name:</Label>
