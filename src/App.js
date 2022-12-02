@@ -6,6 +6,7 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import Contact from "./Components/Contact/Contact";
 import Links from "./Components/Links/Links";
 import Data from "./Components/Portfolio/Data";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio" element={<Portfolio slides={Data} />} />
       </Routes>
+
+      <Footer />
     </div>
   );
 }
