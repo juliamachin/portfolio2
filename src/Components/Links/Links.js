@@ -22,18 +22,18 @@ class Links extends Component {
           <div>
             <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
               <li>
-                <a className="active" href="/portfolio2">
+                <a className="active" href="/">
                   Home
                 </a>
               </li>
               <li>
-                <a href="/portfolio2/about">About</a>
+                <a href="/about">About</a>
               </li>
               <li>
-                <a href="/portfolio2/portfolio">Portfolio</a>
+                <a href="/portfolio">Portfolio</a>
               </li>
               <li>
-                <a href="/portfolio2/contact">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
             </ul>
           </div>
