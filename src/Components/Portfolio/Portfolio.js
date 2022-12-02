@@ -23,7 +23,7 @@ const Portfolio = ({ slides }) => {
 
   return (
     <div>
-      <h2 className="title">Portfolio</h2>
+      {/* <h2 className="title">Portfolio</h2> */}
       <section className="slider">
         <FaArrowAltCircleLeft className="left" onClick={prevSlide} />
         <FaArrowAltCircleRight className="right" onClick={nextSlide} />

@@ -1,10 +1,13 @@
+import somBase from "../Images/SomBase.jpg";
+import madLibs from "../Images/MadLibs.jpg"
+
 const Data = [
     {
-        image: '/Images/SomBase.jpg',
+        image: somBase,
         deploy: 'https://veggie-tales00.github.io/Project3-Client/'
     },
     {
-        image: '/Images/MadLibs.jpg',
+        image: madLibs,
         deploy: 'https://juliamachin.github.io/madlibz-app/'
     }
 ]

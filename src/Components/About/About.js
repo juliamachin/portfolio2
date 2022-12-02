@@ -1,11 +1,12 @@
 import "./About.css";
+import mySelfie from "../Images/IMG_4039.jpg";
 
 const About = () => {
   return (
     <div>
-      <h2 className="title">About Me</h2>
+      {/* <h2 className="title">About Me</h2> */}
       <img
-        src="/Images/IMG_4039.jpg"
+        src={mySelfie}
         width="250"
         height="300"
         className="selfie"

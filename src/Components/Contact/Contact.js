@@ -6,7 +6,7 @@ const Contact = () => {
 
   return (
     <div className="form-container">
-      <h2 className="title">Contact Me</h2>
+      {/* <h2 className="title">Contact Me</h2> */}
       <Form className="form">
         <FormGroup>
           <Label>Name:</Label>

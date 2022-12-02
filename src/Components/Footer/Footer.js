@@ -1,13 +1,15 @@
 import "./Footer.css";
+import myLink from "../Images/LinkedIn.png";
+import myGitHub from "../Images/GitHub.png";
 
 const Footer = () => {
   return (
     <footer>
       <a href="https://www.linkedin.com/in/julia-machin-305628239/">
-        <img src="/Images/LinkedIn.png" alt="in icon" class="link" id="in" />
+        <img src={myLink} alt="in icon" className="link" id="in" />
       </a>
       <a href="https://github.com/juliamachin">
-        <img src="/Images/GitHub.png" alt="git icon" class="link" id="git" />
+        <img src={myGitHub} alt="git icon" className="link" id="git" />
       </a>
     </footer>
   );
