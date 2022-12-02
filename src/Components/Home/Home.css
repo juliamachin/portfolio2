@@ -57,3 +57,17 @@
   top: 0;
   transform: translate(0, -100%);
 }
+
+@media screen and (max-width: 769px) {
+  .animated-title > div {
+    width: 65%;
+  }
+
+  .animated-title > div div {
+    font-size: 8vmin;
+  }
+
+  .animated-title > div.text-bottom div {
+    font-size: 6vmin;
+  }
+}
