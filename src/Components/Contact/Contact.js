@@ -3,7 +3,6 @@ import { useRef } from "react";
 import { Button, Form, FormGroup, Label, Input } from "reactstrap";
 
 const Contact = () => {
-  const form = useRef();
 
   return (
     <div className="form-container">
