@@ -14,7 +14,7 @@ function App() {
       <Links />
 
       <Routes>
-        <Route path="/portfolio2/" element={<Home />} />
+        <Route path="/portfolio2" element={<Home />} />
         <Route path="/portfolio2/about" element={<About />} />
         <Route path="/portfolio2/contact" element={<Contact />} />
         <Route path="/portfolio2/portfolio" element={<Portfolio slides={Data} />} />
