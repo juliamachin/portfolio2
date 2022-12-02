@@ -2,9 +2,14 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div>
-      <h3>This is the footer</h3>
-    </div>
+    <footer>
+      <a href="https://www.linkedin.com/in/julia-machin-305628239/">
+        <img src="/Images/LinkedIn.png" alt="in icon" class="link" id="in" />
+      </a>
+      <a href="https://github.com/juliamachin">
+        <img src="/Images/GitHub.png" alt="git icon" class="link" id="git" />
+      </a>
+    </footer>
   );
 };
 

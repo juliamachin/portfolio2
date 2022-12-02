@@ -1,0 +1,15 @@
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #222938;
+    height: 8vh;
+}
+
+.link {
+    padding: 4px;
+    height: 8vh;
+    width: 8vh;
+    float: right;
+}
