@@ -1,0 +1,26 @@
+.selfie {
+  position: relative;
+  left: 33%;
+  margin: 50px auto;
+  padding-top: 10px;
+}
+
+p {
+  color: #6b6c6e;
+  font-size: 20px;
+  font-family: "Libre Baskerville", serif;
+  line-height: 40px;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+}
+
+@media only screen and (max-width: 780px) and (max-height: 900px) {
+    .selfie {
+        left: 10%;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

@@ -6,7 +6,7 @@ const About = () => {
       <h2 className="title">About Me</h2>
       <img
         src="/Images/IMG_4039.jpg"
-        width="280"
+        width="250"
         height="300"
         className="selfie"
         alt="portrait"

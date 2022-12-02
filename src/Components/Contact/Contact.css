@@ -1,86 +1,85 @@
 .title {
-    color: #767676;
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 30px;
-    left: 40%;
-    position: absolute;
-    top: 12%;
+  color: #767676;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 30px;
+  left: 40%;
+  position: absolute;
+  top: 12%;
 }
 
 .form-container {
-    height: 100%;
-    width: 100%;
-  }
-  
-  Form {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 15%;
-    left: 20%;
-    margin: 50px auto;
-    max-width: 420px;
-    margin: 50px auto;
-  }
-  
-  Input {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    border-radius: 5px;
-    line-height: 22px;
-    background-color: transparent;
-    border: 2px solid #767676;
-    transition: all 0.3s;
-    padding: 13px;
-    margin-bottom: 15px;
-    width: 100%;
-    box-sizing: border-box;
-    outline: 0;
-  }
-  
-  .content {
-    height: 150px;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 150%;
-    resize: vertical;
-    background-color: transparent;
-    border: 2px solid #767676;
-    transition: all 0.3s;
-    padding: 13px;
-    margin-bottom: 15px;
-    width: 100%;
-    box-sizing: border-box;
-    border-radius: 5px;
-  }
-  
-  Button {
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
-    width: 100%;
-    background: #000;
-    border-radius: 5px;
-    border: 0;
-    cursor: pointer;
-    color: white;
-    font-size: 24px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    transition: all 0.3s;
-    margin-top: -4px;
-    font-weight: 700;
-  }
-  Button:hover {
-    background: #cc4949;
-  }
-  
-  @media only screen and (max-width: 780px) and (max-height: 900px) {
-      Form {
-          max-width: 280px;
-          left: 5%;
-      }
+  height: 100%;
+  width: 100%;
+}
 
-      .title {
-        left: 5%;
-      }
+Form {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 15%;
+  left: 24%;
+  margin: 50px auto;
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+Input {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #767676;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.content {
+  height: 150px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  resize: vertical;
+  background-color: transparent;
+  border: 2px solid #767676;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+Button {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #000;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+Button:hover {
+  background: #cc4949;
+}
+
+@media only screen and (max-width: 780px) and (max-height: 900px) {
+  Form {
+    max-width: 280px;
+    left: 5%;
   }
+  .title {
+    left: 10%;
+  }
+}
