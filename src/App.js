@@ -7,6 +7,7 @@ import Contact from "./Components/Contact/Contact";
 import Links from "./Components/Links/Links";
 import Data from "./Components/Portfolio/Data";
 import Footer from "./Components/Footer/Footer";
+import Layout from "./Components/Layout/Layout";
 
 function App() {
   return (
@@ -14,10 +15,11 @@ function App() {
       <Links />
 
       <Routes>
-        <Route path="/portfolio2" element={<Home />} />
-        <Route path="/portfolio2/about" element={<About />} />
-        <Route path="/portfolio2/contact" element={<Contact />} />
-        <Route path="/portfolio2/portfolio" element={<Portfolio slides={Data} />} />
+        <Route path="/" element={<Layout />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/portfolio" element={<Portfolio slides={Data} />} />
       </Routes>
 
       <Footer />

@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
-@import url(https://fonts.googleapis.com/css?family=Arvo:700);
-@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
+@import url("https://fonts.googleapis.com/css?family=Roboto:700");
+@import url("https://fonts.googleapis.com/css?family=Arvo:700");
+@import url("https://fonts.googleapis.com/css?family=Seaweed+Script");
 
 body {
   background-color: #fff;
@@ -11,5 +11,3 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
-
