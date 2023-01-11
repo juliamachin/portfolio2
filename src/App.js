@@ -21,7 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio" element={<Portfolio slides={Data} />} />
       </Routes>
-
+/
       <Footer />
     </div>
   );
