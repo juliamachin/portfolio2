@@ -31,13 +31,13 @@ class Links extends Component {
                 </a>
               </li>
               <li>
-                <a href="/#/about">About</a>
+                <a href="/portfolio2/#/about">About</a>
               </li>
               <li>
-                <a href="/#/portfolio">Portfolio</a>
+                <a href="/portfolio2/#/portfolio">Portfolio</a>
               </li>
               <li>
-                <a href="/#/contact">Contact</a>
+                <a href="/portfolio2/#/contact">Contact</a>
               </li>
             </ul>
           </div>
