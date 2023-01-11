@@ -60,6 +60,7 @@ nav {
     justify-content: flex-start;
     position: fixed;
     top: 63px;
+    z-index: 241;
     right: -300px;
     width: 200px;
     height: 100vh;
