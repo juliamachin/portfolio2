@@ -11,7 +11,7 @@ class Links extends Component {
     return (
       <div>
         <nav>
-          <a href="/">
+          <a href="/portfolio2/#/">
             <img
               src={myIcon}
               width="55"
@@ -26,7 +26,7 @@ class Links extends Component {
               className={this.state.clicked ? "#navbar active" : "#navbar"}
             >
               <li>
-                <a className="active" href="/">
+                <a className="active" href="/portfolio2/#/">
                   Home
                 </a>
               </li>
