@@ -58,16 +58,16 @@
   transform: translate(0, -100%);
 }
 
-@media screen and (max-width: 769px) {
+/* @media screen and (max-width: 769px) {
   .animated-title > div {
-    width: 65%;
+    width: 70%;
   }
 
   .animated-title > div div {
-    font-size: 9vmin;
+    font-size: 10vmin;
   }
 
   .animated-title > div.text-bottom div {
     font-size: 6vmin;
   }
-}
+} */
