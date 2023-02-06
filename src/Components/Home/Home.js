@@ -10,7 +10,7 @@ const Home = () => {
         </div>
       </div>
       <div className="text-bottom">
-        <div>Full Stack Developer</div>
+        <div>Full-Stack Developer</div>
       </div>
     </div>
   );
